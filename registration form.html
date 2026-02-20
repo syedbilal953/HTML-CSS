@@ -1,0 +1,198 @@
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body style="background-color: rgb(76, 76, 198);">
+    <h1  style="text-align: center ;" > STUDENT REGISTRATION FORM</h1>
+    <form>
+        <table h>
+            <tr>
+                <td style="font-weight: bold;">                   
+                First Name :
+                </td>
+
+                <td>
+                <input type="text" placeholder="enter your first name" > ( max 30 character a-z & A-Z )
+            </td>
+
+            </tr>
+
+            <tr>
+                <td style="font-weight: bold;">
+                Last Name :
+                </td>
+
+            <td>
+            
+                <input type="text" placeholder="enter your last name"  > ( max 30 character a-z & A-Z )
+            </td>
+
+            </tr>
+
+            <tr>
+                <td style="font-weight: bold;">
+                    Date Of Birth :
+                    <td>
+                        <input type="date" >
+                    </td>
+
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="font-weight: bold;">
+                    Email :
+                </td>
+
+                <td>
+                    <input type="email" placeholder="enter your email @">
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="font-weight: bold;">
+                Phone Number :
+                </td>
+
+                <td>
+                    <input type="tel" maxlength="11" placeholder="Enter 11-digit number" required
+       onkeypress="return event.charCode >= 48 && event.charCode <= 57"> (Only 11 nmber digit)
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="font-weight: bold;">
+                    Gender :
+                </td>
+                
+            <td>
+                <input type="radio" name="Gender">Male
+                  <input type="radio" name="Gender">Female
+                    <input type="radio" name="Gender">Other
+
+            </td>
+
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">
+                    Address :
+                </td>
+
+                <td>
+                    <textarea : rows="4" ; cols="20" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">
+                    City :
+                </td>
+                <td>
+                    <input type="text"> ( max 30 character a-z & A-Z )
+                </td>
+
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">
+                    Pin Code :
+                </td>
+                <td>
+                    <input type="text"> ( 6 digit code )
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">
+                State :
+                </td>
+            <td>
+                <input type="text"> ( max 30 character a-z & A-Z )
+            </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">
+                Country :
+            </td>
+            <td>
+                <select >
+                    <option>select option</option>
+                    <option>Pakistan</option>
+                    <option>U.A.E</option>
+                    <option>Saudia Arbia</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">
+                    Hobbies :
+                </td>
+                <td>
+                 <input type="checkbox"Drawing>Drawing
+                 <input type="checkbox"Singing>Singing
+                 <input type="checkbox"Dancing>Dancing
+                 <input type="checkbox"Skectching>Skectching
+                 
+                  <div class="others-section">
+                  <label>Others:</label>
+                 <input type="text">
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">
+                    Qualification :
+                </td>
+                <td>
+                    <div class="qualification-container">
+  <label class="section-label"></label>
+                 <table class="qual table">
+
+                    <tr> 
+
+                        S.no eximination board                        
+                    </tr>
+                    
+                     <tbody>
+      <tr>
+        <td>1.</td>
+        <td>Class X</td>
+        <td><input type="text"></td>
+        <td ><input type="text"></td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Class XII</td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Graduation</td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>Masters</td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+      </tr>
+      </tbody>
+
+        </table>
+        <div class="degree-rows">
+            <input type="radio"BCA>BCA
+            <input type="radio"B.COM>B.COM
+            <input type="radio"B.SC>B.SC
+            <input type="radio"BA>BA
+        </div>
+    </form>
+      <button  type=Submit>Submit</button>
+      <button type="Reset">Reset</button>
+</body>
+</html>
